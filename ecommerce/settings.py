@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'ecommerce.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'database_name',
+        'NAME': 'ecommerce_db',
         'USER': 'root',
         'PASSWORD': '',
         'HOST': 'localhost',
